@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/linkedin2.rb",
     "lib/linkedin2/consumer.rb",
+    "linkedin2.gemspec",
     "test/helper.rb",
     "test/test_linkedin2.rb"
   ]
