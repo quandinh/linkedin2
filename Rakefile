@@ -16,9 +16,10 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/quandinh/linkedin2"
   gem.license = "MIT"
   gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{TODO: authentication linkedin & API }
   gem.email = "quandinh@agilemobile.com"
   gem.authors = ["quandinh"]
+  gem.add_dependency 'cobravsmongoose'
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
